@@ -5,7 +5,7 @@ type Props = {}
 export const Messages = (props: Props) => {
   return (
     <div>
-      messages
+      Messages
     </div>
   )
 }
