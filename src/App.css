@@ -1,32 +1,3 @@
-.app-wrapper {
-    box-sizing: border-box;
-    padding: 1em;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 4em 1fr;
-    grid-template-columns: 2fr 10fr;
-    grid-gap: 1em;
-    grid-template-areas:
-      "header header"
-      "nav content";
-}
-
-.header {
-    grid-area: header;
-    background-color: #fa0000;
-}
-
-.nav {
-    grid-area: nav;
-    background-color: #48ff00;
-}
-
-.content {
-    grid-area: content;
-    background-color: #1635ff;
-}
-
-.header img {
-    height: 3em;
-    width: 3em;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
