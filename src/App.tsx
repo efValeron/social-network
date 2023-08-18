@@ -12,11 +12,11 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="box-border p-2 h-full font-hel">
+      <div className="box-border p-4 h-full font-hel bg-slate-50 text-slate-600">
         <Header/>
         <div className="mt-2 grid grid-cols-12 gap-2">
           <Nav/>
-          <div className="bg-sky-500 col-span-11 p-2 box-border">
+          <div className="col-span-11">
             <Routes>
               <Route path="/profile" element={<Profile/>}/>
               <Route path="/messages" element={<Messages/>}/>
